@@ -13,7 +13,7 @@ const tripInfo = function () {
 
 const calculateDailyBudget = function (totalBudget, accommodation, numDays) {
   const daily = ((totalBudget - accommodation) / numDays).toFixed(2);
-  dailyBudget.innerText = `You can spend $${daily} a day on food and fun`;
+  dailyBudget.innerText = `🌴You can spend $${daily} a day on food and fun😊!`;
 };
 
 tripInfoButton.addEventListener("click", function () {
